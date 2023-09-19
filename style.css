@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  -webkit-tab-highlight-color: transparent;
+  -webkit-tab-highlight-color: rgba(0,0,0,0);
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.header_img img{
+  width: 200px;
+  cursor: pointer;
+  
+}
+header .title_site{
+  color: white;
+  display: flex;
+  gap: 5px;
+}
+header .title_site .title_name{
+  color: #d5d5d5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gerenciamento_toggle{
+  background-color: rgb(114, 114, 114);
+  position: fixed;
+  width: 100px;
+  height: 30px;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gerenciamento_toggle a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.contato{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  
+}
+.contato img{
+  width: 50px;
+  cursor: pointer;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  width: 100%;
+  gap: 25px;
+  
+}
+main ul{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 200px;
+}
+main li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 300px;
+  gap: 10px;
+}
+main .produto{
+  
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+/*
+main .produto:hover{
+  border: solid 3px rgb(255, 137, 2);
+  cursor: pointer;
+}
+*/
+main .produto .img_produto{
+  width: 90%;
+  
+}
+main .produto .img_produto img{
+  width: 100%;
+  
+  overflow: cover;
+}
+main .produto .info_produto{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main .produto .info_produto p{
+  width: 100px;
+}
+.botao_contato button{
+  cursor: pointer;
+  border: none;
+  width: 120px;
+  height: 25px;
+  background-color: d5d5d5;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.botao_contato button:hover{
+  background-color: black;
+  color: rgb(255, 137, 2);
+}
+
